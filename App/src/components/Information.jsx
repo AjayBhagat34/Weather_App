@@ -31,8 +31,6 @@ const Information = ({ result }) => {
   }
 
   const {
-    name,
-    sys: { country },
     main: { temp, humidity },
     sys: { sunrise, sunset },
     weather,
